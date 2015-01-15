@@ -1,0 +1,12 @@
+To compile the scanner, type 
+make ; 
+
+To test the scanner, type 
+./scanner < tests/polygon.turtle
+
+The following files are included in the homework
+
+  - tests/: this folder has several sample programs for testing
+  - scanner.c scanner.h: complete implementation of the scanner
+  - turtle.c turle.h: implementation of turtle functionalities such as drawing, print out images. This will be used by the parser.
+   

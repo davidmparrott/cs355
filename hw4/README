@@ -1,0 +1,14 @@
+David Parrott
+david.m.parrott@wsu.edu
+11239947
+CS 355 Homework 4
+Boolean Satisfiability in Prolog
+
+Description:
+hw4.pl implements some necessary functions to test Boolean Satisfiability. All necessary functions for homework 4 were implemented (eval-var, eval-clause, get-vars, get-all-vars, unsat-clauses, flip-var); however, the final two functions for a complete implementation (get-better-neighbor, hill-climb) were not implemented. 
+
+Assumptions:
+hw4.pl assumes that state lists are passed in the form [[a,true],[b,true],[c,true]...] and that clauses are passed with a correctly formatted state list as well as a clause list in the form [[a,[not,b],c],[a,[not,b],[not,c]],[a,[not,b],d]].
+
+Project Status:
+All functions work properly when tested with the sample inputs provided in the assignment sheet. Additionally testing data was generated to attempt to 'break' methods and no bugs were detected.
